@@ -1,4 +1,6 @@
 import random
+from flask import Flask
+
 
 #read csv file
 reader = open("occupations.csv", "r")
@@ -37,20 +39,15 @@ def randOccupation():
             return key
         cumsum += dict[key]
 
-#print randOccupation()
 
-#Test if randOccupation gives expected probability
-def probTester(cat):
-    counter = 0
-    i = 0
-    while i < 99800:
-        if randOccupation() == cat:
-            counter += 1
-        i += 1
-    print "EXPERIMENTAL: " +str(counter / 1000.0) + " EXPECTED: " + str(dict[cat])
 
-#test probability
-probTester("Sales")
-probTester("Legal")
-probTester("Farming, fishing and forestry")
+app=Flask(__name__)
+@app.route('/occupations')
+def occu():
+	return 'jninja'
 
+if __name__ == '__main__':
+	app.debug==True
+	app.run()	
+
+	
