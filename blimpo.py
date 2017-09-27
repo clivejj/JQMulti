@@ -1,5 +1,5 @@
 import random
-from flask import Flask
+from flask import Flask, render_template
 
 
 #read csv file
@@ -9,7 +9,8 @@ data = reader.read()
 reader.close()
 
 #split csv file by line
-dataList = data.split('\r\n')
+dataList = data.splitlines()
+#print dataList
 dataList = dataList[:-1]
 #print dataList
 
@@ -26,9 +27,11 @@ for x in dataList[1:]:
         temp = x.split(",")
         #convert to float
         dict[temp[0]] = float(temp[1])
+	
 
 
 dict.pop("Total", 0)
+
 #print dict
 
 def randOccupation():
@@ -44,7 +47,8 @@ def randOccupation():
 app=Flask(__name__)
 @app.route('/occupations')
 def occu():
-	return 'jninja'
+	
+	return render_template('base.html',passedDict = dict, randOcc = randOccupation());
 
 if __name__ == '__main__':
 	app.debug==True

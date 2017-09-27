@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Occupations Page
+</title>
+</head>
+<body>
+<h1> Occupations </h1>
+<table style="width:100%">
+  <tr> <td><b>Job Class <b></td> <td><b>Percentage <b></td></tr>
+ {% for key in passedDict %}
+ <tr>
+	<td>
+   {{key}}
+   </td>
+   <td>
+	{{passedDict[key]}}
+   </td>
+ </tr>
+ {% endfor %}
+</table>
+<br>
+Congrats, the occupation you are forced to be in for eternity is: 
+<br>
+<b>{{randOcc}}</b>
+
+</body>
+</html
