@@ -15,7 +15,7 @@ Occupations Page
    {{key}}
    </td>
    <td>
-	{{passedDict[key]}}
+	{{passedDict[key][0]}}
    </td>
  </tr>
  {% endfor %}
@@ -24,6 +24,8 @@ Occupations Page
 Congrats, the occupation you are forced to be in for eternity is: 
 <br>
 <b>{{randOcc}}</b>
+To learn more about your new profession, see <a href={{passedDict[randOcc][1]}}> here </a>
+
 
 </body>
 </html

@@ -1,24 +1,24 @@
-Job Class,Percentage
-Management,6.1
-Business and Financial operations,5
-Computer and Mathematical,2.7
-Architecture and Engineering,1.7
-"Life, Physical and Social Science",0.9
-Community and Social Service,1.6
-Legal,0.8
-"Education, training and library",6.1
-"Arts, design, entertainment, sports and media",1.7
-Healthcare practioners and technical,5.5
-Healthcare support,2.8
-Protective service,2.3
-Food preparation and serving,8.3
-Building and grounds cleaning and maintenance,3.7
-Personal care and service,4
-Sales,10.2
-Office and administrative support,15.1
-"Farming, fishing and forestry",0.6
-Construction and extraction,4.3
-"Installation, maintenance and repair",3.8
-Production,6.1
-Transportation and material moving,6.5
-Total,99.8
+Job Class,Percentage,URL
+Management,6.1,http://www.careers.org/occupations/field/11/management
+Business and Financial operations,5,http://www.careers.org/occupations/field/13/business-and-financial-operations
+Computer and Mathematical,2.7,http://www.careers.org/occupations/field/15/computer-and-mathematical
+Architecture and Engineering,1.7,http://www.careers.org/occupations/field/17/architecture-and-engineering
+"Life, Physical and Social Science",0.9,http://www.careers.org/occupations/field/19/life-physical-and-social-science
+Community and Social Service,1.6,http://www.careers.org/occupations/field/21/community-and-social-services
+Legal,0.8,http://www.careers.org/occupations/field/23/legal
+"Education, training and library",6.1,http://www.careers.org/occupations/field/25/education-training-and-library
+"Arts, design, entertainment, sports and media",1.7,http://www.careers.org/occupations/field/27/arts-design-entertainment-sports-and-media
+Healthcare practioners and technical,5.5,http://www.careers.org/occupations/field/29/healthcare-practitioners-and-technical
+Healthcare support,2.8,http://www.careers.org/occupations/field/31/healthcare-support
+Protective service,2.3,http://www.careers.org/occupations/field/33/protective-service
+Food preparation and serving,8.3,http://www.careers.org/occupations/field/35/food-preparation-and-serving-related
+Building and grounds cleaning and maintenance,3.7,http://www.careers.org/occupations/field/37/building-and-grounds-cleaning-and-maintenance
+Personal care and service,4,http://www.careers.org/occupations/field/39/personal-care-and-service
+Sales,10.2,http://www.careers.org/occupations/field/41/sales-and-related
+Office and administrative support,15.1,http://www.careers.org/occupations/field/43/office-and-administrative-support
+"Farming, fishing and forestry",0.6,http://www.careers.org/occupations/field/45/farming-fishing-and-forestry
+Construction and extraction,4.3,http://www.careers.org/occupations/field/47/construction-and-extraction
+"Installation, maintenance and repair",3.8,http://www.careers.org/occupations/field/49/installation-maintenance-and-repair
+Production,6.1,http://www.careers.org/occupations/field/51/production
+Transportation and material moving,6.5,http://www.careers.org/occupations/field/53/transportation-and-material-moving%22
+Total,99.8,link
