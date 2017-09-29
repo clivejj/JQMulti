@@ -1,3 +1,5 @@
+import random
+
 def csvToDict(csvName):
     #read csv file
     reader = open(csvName, "r")
@@ -26,3 +28,12 @@ def csvToDict(csvName):
             dict[temp[0]] = [float(temp[1]), temp[2]]
     #dict.pop("Total")
     return dict
+
+def randOccupation(dict):
+	num = random.uniform(0, 99.8)
+	cumsum = 0
+	for key in dict:
+		if cumsum + dict[key][0] >= num:
+			return key
+		cumsum += dict[key][0]
+		print cumsum
